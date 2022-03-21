@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Watch from './component/Watch/Watch';
+import Cosmetics from './components/Cosmetics/Cosmetics';
+import Shoes from './components/Shoes/Shoes';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Device name ='iphone' price = '150000'></Device> */}
-      <Watch></Watch>
+    <div className="App">      
+        <Cosmetics></Cosmetics>
+        <Shoes></Shoes>
     </div>
   );
 }
